@@ -1,0 +1,37 @@
+# open firefox
+super + f
+	firefox
+
+# run dmenu
+super + p
+	dmenu_run -c -l 12
+
+# open st
+super + shift + Return
+	st
+
+# open thunar
+super + e
+	thunar
+
+# open minecraft
+super + m
+	ultimmc
+
+## MEDIA KEYS
+
+# Decrease Screen brightness
+XF86MonBrightnessDown
+	light -U 10
+
+# increase screen brightness
+XF86MonBrightnessUp
+	light -A 10
+
+# raise or lower volume
+XF86Audio{Raise,Lower}Volume
+	{upvol, downvol}
+
+# mute volume
+XF86AudioMute
+	mutevol
